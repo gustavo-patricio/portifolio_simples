@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+
+
+}
+
+body{
+  background-color: black;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  width: 100vw;
+  height: 15vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-logo{
+  color: white;
+}
+
+.menu-superior > ul > li{
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.menu-superior > ul > li > a{
+  color: white;
+  padding: 7px 13px;
+  border-radius: 5px;
+}
+
+/*============== secao principal ==============*/
+.principal{
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 65vh;
+  display: flex;
+}
+
+/*============= menu lateral ==================*/
+
+.espaco-esquerdo{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-lateral{
+  justify-content: left;
+  width: 100%;
+}
+
+.menu-lateral > ul > li{
+  margin-top: 10px;
+}
+
+.espaco-direito{
+  width: 80%;
+  height: 100%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+footer{
+  display: block;
+  text-align:left;
+  width: 100vw;
+  padding-left: 30px;
+  padding-right: 30px;
+}
